@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Products</title>
+    <link rel="icon" href="./image (2).png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div id="productCreator">
+            <div id="openClose">
+                <button><i class="fa-solid fa-x"></i></button>
+            </div>
+
+            <h1 class="Product_info_name">Product Info</h1>
+            <form id="prodform">
+                <input type="text" placeholder="Name" id="productName">
+                <input type="number" placeholder="Price" id="productPrice">
+                <input type="text" placeholder="Image" id="productImage">
+                <input type="text" placeholder="Description" id="productDes">
+                <div>
+                    <input type="reset" value="Delete" id="deleteButton">
+                    <button id="createButton" type="submit">Create</button>
+                </div>
+            </form>
+
+
+        </div>
+
+        <div id="newButton">
+            <button>New Product</button>
+        </div>
+
+
+    </div>
+
+
+
+    <div id="productBox">
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
